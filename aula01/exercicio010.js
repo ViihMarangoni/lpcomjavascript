@@ -34,8 +34,8 @@ let inss = salario_bruto * 0.08
 let sindicato = salario_bruto * 0.05
 let descontos = ir + inss + sindicato
 let salario_liquido = salario_bruto - descontos
-console.log("IR (11%) : R$ " ir.tofixed(2))
-console.log("INSS (8%) : R$ " inss.tofixed(2))
-console.log("SINDICATO (11%) : R$ " sindicato.tofixed(2))
-console.log("SALÁRIO LÍQUIDO : R$ " salario_liquido.tofixed(2))
+console.log("IR (11%) : R$ " + ir.tofixed(2))
+console.log("INSS (8%) : R$ " + inss.tofixed(2))
+console.log("SINDICATO (11%) : R$ " + sindicato.tofixed(2))
+console.log("SALÁRIO LÍQUIDO : R$ " + salario_liquido.tofixed(2))
   */

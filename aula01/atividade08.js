@@ -5,3 +5,6 @@ celcius = 10
 soma = ((celcius * 9/5) + 32)
 
 console.log("A temperatura de " + celcius + " graus celcius para Fahrenheit = " + soma)
+
+// ou 
+// console.log("Temperatura em Fahrenheit: " + Fahrenheit)

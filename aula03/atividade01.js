@@ -25,11 +25,8 @@ frutas.sort() // sort deixa o array em ordem crescente
 console.dir(frutas)
 
 // Ordenar o Array em ordem decrescente
-frutas.sort(function(a, b) {
-    return b.localeCompare(a)
-  });                                    
-  console.dir(frutas)
-    // Certamente! A expressão b.localeCompare(a) é usada para comparar duas strings (a e b). Quando usada com sort() em um array, ela faz com que o array seja ordenado em ordem decrescente com base nas strings contidas nele.
+frutas.reverse() // reverse deixa o array em ordem decrescente
+console.dir(frutas)
 
 // Remover o primeiro item do Array
 frutas.shift() // shift remove o primeiro item do array

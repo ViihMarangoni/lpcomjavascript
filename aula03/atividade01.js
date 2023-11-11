@@ -13,8 +13,8 @@ frutas[1] = "Pêra"
 console.dir(frutas)
 
 // Adicionar um novo elemento no início do Array
-frutas.unshift("Maçã") // unshift adicona o elemento no início do array
-console.dir(frutas)
+frutas.unshift("Maçã") // unshift é um método do array
+console.dir(frutas) // dir é um método do console
 
 // Adicionar um novo elemento no final do Array
 frutas.push("Uva") // push adiciona o elemento no final do array

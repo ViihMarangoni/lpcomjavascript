@@ -4,8 +4,8 @@ OPERADORES ARITMÉTICOS
 - * / 
 % --> módulo, pega o resto da divisão
 ** --> exponenciação
-++ --> incrementar 1
--- --> decrementar
+++ --> incrementar 1 / aumenta +1
+-- --> decrementar / diminui -1
 */
 
 let i = 0
